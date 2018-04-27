@@ -1,0 +1,36 @@
+# 2018-04-26
+
+* Added Avahi support.
+
+# 2018-03-10
+
+* Modularized multicasting code and moved it from MulticastQuicksere.py to Multicast.py.
+* Changed multicast announcer code to ensure announcement is made on all interfaces if no interface is bound.
+* Renamed server address and port options for multicasting.
+* Added new option to configure multicasting announcement ports.
+* Renamed MulticastQuickserveServer to PeeredQuickserveServer
+* Renamed several functions and moved some to common.py
+
+
+# 2014-01-05
+
+* log file transfer sizes and local filepaths
+
+
+# 2013-11-26
+
+* added new "multiple" attribute to file upload input tags
+* changed query strings for displaying custom pages (upload, peers)
+* added space before closing slash in empty XML tags
+* fixed bug in index page handling
+
+
+# 2013-09-28
+
+* show all bound interfaces and addresses in info message
+
+
+# 2013-07-01
+
+* support for multicasting via selected interfaces
+* accept interface names as binding address arguments
